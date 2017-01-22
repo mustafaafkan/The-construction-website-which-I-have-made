@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99009088-DE7B-49C0-8E3D-EA890090CFD4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gunaydininsaattahahut</RootNamespace>
+    <AssemblyName>gunaydininsaattahahut</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="images\2.jpeg" />
+    <Content Include="images\2.png" />
+    <Content Include="images\5.png" />
+    <Content Include="images\anlasmak.png" />
+    <Content Include="images\blog_image_01.jpg" />
+    <Content Include="images\blog_image_02.jpg" />
+    <Content Include="images\blog_image_03.jpg" />
+    <Content Include="images\blog_image_04.jpg" />
+    <Content Include="images\buyutec.png" />
+    <Content Include="images\closelabel.gif" />
+    <Content Include="images\content_bottom.jpg" />
+    <Content Include="images\content_divider.jpg" />
+    <Content Include="images\content_top.jpg" />
+    <Content Include="images\default.jpeg" />
+    <Content Include="images\default.png" />
+    <Content Include="images\gallery\image_01_l.jpg" />
+    <Content Include="images\gallery\image_01_s.jpg" />
+    <Content Include="images\gallery\image_02_l.jpg" />
+    <Content Include="images\gallery\image_02_s.jpg" />
+    <Content Include="images\gallery\image_03_l.jpg" />
+    <Content Include="images\gallery\image_03_s.jpg" />
+    <Content Include="images\gallery\image_04_l.jpg" />
+    <Content Include="images\gallery\image_04_s.jpg" />
+    <Content Include="images\gallery\image_05_l.jpg" />
+    <Content Include="images\gallery\image_05_s.jpg" />
+    <Content Include="images\gallery\image_06_l.jpg" />
+    <Content Include="images\gallery\image_06_s.jpg" />
+    <Content Include="images\icon1.jpg" />
+    <Content Include="images\icon2.jpg" />
+    <Content Include="images\icon3.jpg" />
+    <Content Include="images\icon3.png" />
+    <Content Include="images\lightbox-blank.gif" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\map_big.jpg" />
+    <Content Include="images\map_thumb.jpg" />
+    <Content Include="images\menu.jpg" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\nav_control.jpg" />
+    <Content Include="images\nav_control.png" />
+    <Content Include="images\nav_control_hover.jpg" />
+    <Content Include="images\nav_control_hover.png" />
+    <Content Include="images\news_image_01.jpg" />
+    <Content Include="images\news_image_02.jpg" />
+    <Content Include="images\news_image_03.jpg" />
+    <Content Include="images\news_image_04.jpg" />
+    <Content Include="images\nextlabel.gif" />
+    <Content Include="images\prevlabel.gif" />
+    <Content Include="images\resim.png" />
+    <Content Include="images\resim1.png" />
+    <Content Include="images\resim2.png" />
+    <Content Include="images\resim3.png" />
+    <Content Include="images\sagyazi.png" />
+    <Content Include="images\slider.jpg" />
+    <Content Include="images\slider_bottom.jpg" />
+    <Content Include="images\slider_bottom.png" />
+    <Content Include="images\slideshow\01.jpg" />
+    <Content Include="images\slideshow\02.jpg" />
+    <Content Include="images\slideshow\03.jpg" />
+    <Content Include="images\slideshow\04.jpg" />
+    <Content Include="images\slideshow\05.jpg" />
+    <Content Include="images\templatemo_body.jpg" />
+    <Content Include="images\templatemo_button.png" />
+    <Content Include="images\templatemo_list.png" />
+    <Content Include="images\templatemo_logo.png" />
+    <Content Include="images\twitter.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="js\slimbox2.js" />
+    <Content Include="templatemo_style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aslt_kisim.ascx.cs">
+      <DependentUpon>aslt_kisim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aslt_kisim.ascx.designer.cs">
+      <DependentUpon>aslt_kisim.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bizeulasin.ascx.cs">
+      <DependentUpon>bizeulasin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bizeulasin.ascx.designer.cs">
+      <DependentUpon>bizeulasin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bize_ulasin.aspx.cs">
+      <DependentUpon>bize_ulasin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bize_ulasin.aspx.designer.cs">
+      <DependentUpon>bize_ulasin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form.ascx.cs">
+      <DependentUpon>form.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.ascx.designer.cs">
+      <DependentUpon>form.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="form.aspx.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.aspx.designer.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetler.aspx.cs">
+      <DependentUpon>hizmetler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetler.aspx.designer.cs">
+      <DependentUpon>hizmetler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetlerimiz_alt_kisim.ascx.cs">
+      <DependentUpon>hizmetlerimiz_alt_kisim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetlerimiz_alt_kisim.ascx.designer.cs">
+      <DependentUpon>hizmetlerimiz_alt_kisim.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetlerimiz_page_1.ascx.cs">
+      <DependentUpon>hizmetlerimiz_page_1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetlerimiz_page_1.ascx.designer.cs">
+      <DependentUpon>hizmetlerimiz_page_1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetlerimiz_page_1.aspx.cs">
+      <DependentUpon>hizmetlerimiz_page_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetlerimiz_page_1.aspx.designer.cs">
+      <DependentUpon>hizmetlerimiz_page_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="malzeme.ascx.cs">
+      <DependentUpon>malzeme.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="malzeme.ascx.designer.cs">
+      <DependentUpon>malzeme.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="malzemeler.aspx.cs">
+      <DependentUpon>malzemeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="malzemeler.aspx.designer.cs">
+      <DependentUpon>malzemeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page-1.aspx.cs">
+      <DependentUpon>page-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page-1.aspx.designer.cs">
+      <DependentUpon>page-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page1.ascx.cs">
+      <DependentUpon>page1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page1.ascx.designer.cs">
+      <DependentUpon>page1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="referans.ascx.cs">
+      <DependentUpon>referans.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="referans.ascx.designer.cs">
+      <DependentUpon>referans.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="referanslarımız.aspx.cs">
+      <DependentUpon>referanslarımız.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="referanslarımız.aspx.designer.cs">
+      <DependentUpon>referanslarımız.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="satis-urunleri.ascx.cs">
+      <DependentUpon>satis-urunleri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="satis-urunleri.ascx.designer.cs">
+      <DependentUpon>satis-urunleri.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="satis_urunleri.aspx.cs">
+      <DependentUpon>satis_urunleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="satis_urunleri.aspx.designer.cs">
+      <DependentUpon>satis_urunleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gallery\Thumbs.db" />
+    <None Include="images\slideshow\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="AC_RunActiveContent.js" />
+    <Content Include="aslt_kisim.ascx" />
+    <Content Include="bizeulasin.ascx" />
+    <Content Include="bize_ulasin.aspx" />
+    <Content Include="css\ie6.css" />
+    <Content Include="css\ie7.css" />
+    <Content Include="css\jquery.lightbox-0.5.css" />
+    <Content Include="css\nivo-slider.css" />
+    <Content Include="css\slimbox2.css" />
+    <Content Include="form.ascx" />
+    <Content Include="form.aspx" />
+    <Content Include="hizmetler.aspx" />
+    <Content Include="hizmetlerimiz_alt_kisim.ascx" />
+    <Content Include="hizmetlerimiz_page_1.ascx" />
+    <Content Include="hizmetlerimiz_page_1.aspx" />
+    <Content Include="images\gallery\image_07_l.jpg" />
+    <Content Include="images\gallery\image_07_s.jpg" />
+    <Content Include="images\gallery\image_08_l.jpg" />
+    <Content Include="images\gallery\image_08_s.jpg" />
+    <Content Include="images\gallery\image_09_l.jpg" />
+    <Content Include="images\gallery\image_09_s.jpg" />
+    <Content Include="images\gallery\image_100_s.JPG" />
+    <Content Include="images\gallery\image_10_s.JPG" />
+    <Content Include="images\gallery\image_11_s.JPG" />
+    <Content Include="images\gallery\image_12_s.JPG" />
+    <Content Include="images\gallery\image_13_s.JPG" />
+    <Content Include="images\gallery\image_15_s.JPG" />
+    <Content Include="images\gallery\image_17_s.JPG" />
+    <Content Include="images\gallery\image_18_s.JPG" />
+    <Content Include="images\gallery\image_20_s.JPG" />
+    <Content Include="images\gallery\image_21_s.JPG" />
+    <Content Include="images\gallery\image_25_s.JPG" />
+    <Content Include="images\gallery\image_26_s.JPG" />
+    <Content Include="images\gallery\image_27_s.JPG" />
+    <Content Include="images\gallery\image_29_s.JPG" />
+    <Content Include="images\gallery\image_32_s.JPG" />
+    <Content Include="images\gallery\image_33_s.JPG" />
+    <Content Include="images\gallery\image_34_s.JPG" />
+    <Content Include="images\gallery\image_36_s.JPG" />
+    <Content Include="images\gallery\image_38_s.JPG" />
+    <Content Include="images\gallery\image_39_s.JPG" />
+    <Content Include="images\gallery\image_40_s.JPG" />
+    <Content Include="images\gallery\image_41_s.JPG" />
+    <Content Include="images\gallery\image_44_s.JPG" />
+    <Content Include="images\gallery\image_46_s.JPG" />
+    <Content Include="images\gallery\image_47_s.JPG" />
+    <Content Include="images\gallery\image_51_s.JPG" />
+    <Content Include="images\gallery\image_52_s.JPG" />
+    <Content Include="images\gallery\image_54_s.JPG" />
+    <Content Include="images\gallery\image_55_s.JPG" />
+    <Content Include="images\gallery\image_57_s.JPG" />
+    <Content Include="images\gallery\image_58_s.JPG" />
+    <Content Include="images\gallery\image_59_s.JPG" />
+    <Content Include="images\gallery\image_60_s.JPG" />
+    <Content Include="images\gallery\image_61_s.JPG" />
+    <Content Include="images\gallery\image_65_s.JPG" />
+    <Content Include="images\gallery\image_66_s.JPG" />
+    <Content Include="images\gallery\image_67_s.JPG" />
+    <Content Include="images\gallery\image_69_s.JPG" />
+    <Content Include="images\gallery\image_70_s.JPG" />
+    <Content Include="images\gallery\image_72_s.JPG" />
+    <Content Include="images\gallery\image_73_s.JPG" />
+    <Content Include="images\gallery\image_74_s.JPG" />
+    <Content Include="images\gallery\image_77_s.JPG" />
+    <Content Include="images\gallery\image_79_s.JPG" />
+    <Content Include="images\gallery\image_80_s.JPG" />
+    <Content Include="images\gallery\image_81_s.JPG" />
+    <Content Include="images\gallery\image_83_s.JPG" />
+    <Content Include="images\gallery\image_84_s.JPG" />
+    <Content Include="images\gallery\image_88_s.JPG" />
+    <Content Include="images\gallery\image_89_s.JPG" />
+    <Content Include="images\gallery\image_90_s.JPG" />
+    <Content Include="images\gallery\image_91_s.JPG" />
+    <Content Include="images\gallery\image_92_s.JPG" />
+    <Content Include="images\gallery\image_93_s.JPG" />
+    <Content Include="images\gallery\image_96_s.JPG" />
+    <Content Include="images\gallery\image_97_s.JPG" />
+    <Content Include="images\gallery\image_98_s.JPG" />
+    <Content Include="images\gallery\image_99_s.JPG" />
+    <Content Include="images\gallery\satis_10_I.jpg" />
+    <Content Include="images\gallery\satis_10_s.jpg" />
+    <Content Include="images\gallery\satis_11_I.jpg" />
+    <Content Include="images\gallery\satis_11_s.jpg" />
+    <Content Include="images\gallery\satis_12_I.jpg" />
+    <Content Include="images\gallery\satis_12_s.jpg" />
+    <Content Include="images\gallery\satis_13_I.jpg" />
+    <Content Include="images\gallery\satis_13_s.jpg" />
+    <Content Include="images\gallery\satis_14_I.jpg" />
+    <Content Include="images\gallery\satis_14_s.jpg" />
+    <Content Include="images\gallery\satis_15_I.jpg" />
+    <Content Include="images\gallery\satis_15_s.jpg" />
+    <Content Include="images\gallery\satis_16_I.jpg" />
+    <Content Include="images\gallery\satis_16_s.jpg" />
+    <Content Include="images\gallery\satis_17_I.jpg" />
+    <Content Include="images\gallery\satis_17_s.jpg" />
+    <Content Include="images\gallery\satis_18_I.jpg" />
+    <Content Include="images\gallery\satis_18_s.jpg" />
+    <Content Include="images\gallery\satis_19_I.jpg" />
+    <Content Include="images\gallery\satis_19_s.jpg" />
+    <Content Include="images\gallery\satis_1_I.jpg" />
+    <Content Include="images\gallery\satis_1_s.jpg" />
+    <Content Include="images\gallery\satis_20_I.jpg" />
+    <Content Include="images\gallery\satis_20_s.jpg" />
+    <Content Include="images\gallery\satis_21_I.jpg" />
+    <Content Include="images\gallery\satis_21_s.jpg" />
+    <Content Include="images\gallery\satis_22_I.jpg" />
+    <Content Include="images\gallery\satis_22_s.jpg" />
+    <Content Include="images\gallery\satis_23_I.jpg" />
+    <Content Include="images\gallery\satis_23_s.jpg" />
+    <Content Include="images\gallery\satis_24_I.jpg" />
+    <Content Include="images\gallery\satis_24_s.jpg" />
+    <Content Include="images\gallery\satis_25_I.jpg" />
+    <Content Include="images\gallery\satis_25_s.jpg" />
+    <Content Include="images\gallery\satis_2_I.jpg" />
+    <Content Include="images\gallery\satis_2_s.jpg" />
+    <Content Include="images\gallery\satis_3_I.jpg" />
+    <Content Include="images\gallery\satis_3_s.jpg" />
+    <Content Include="images\gallery\satis_4_I.jpg" />
+    <Content Include="images\gallery\satis_4_s.jpg" />
+    <Content Include="images\gallery\satis_5_I.jpg" />
+    <Content Include="images\gallery\satis_5_s.jpg" />
+    <Content Include="images\gallery\satis_6_I.jpg" />
+    <Content Include="images\gallery\satis_6_s.jpg" />
+    <Content Include="images\gallery\satis_7_I.jpg" />
+    <Content Include="images\gallery\satis_7_s.jpg" />
+    <Content Include="images\gallery\satis_8_I.jpg" />
+    <Content Include="images\gallery\satis_8_s.jpg" />
+    <Content Include="images\gallery\satis_9_I.jpg" />
+    <Content Include="images\gallery\satis_9_s.jpg" />
+    <Content Include="images\geri.png" />
+    <Content Include="images\geri_hover.png" />
+    <Content Include="images\ie6.png" />
+    <Content Include="images\ileri.png" />
+    <Content Include="images\ileri_hover.png" />
+    <Content Include="images\resim10.png" />
+    <Content Include="images\slideshow\06.jpg" />
+    <Content Include="malzeme.ascx" />
+    <Content Include="malzemeler.aspx" />
+    <Content Include="MasterPage.master" />
+    <Content Include="page-1.aspx" />
+    <Content Include="page1.ascx" />
+    <Content Include="referans.ascx" />
+    <Content Include="referanslarımız.aspx" />
+    <Content Include="reklam.swf" />
+    <Content Include="satis-urunleri.ascx" />
+    <Content Include="satis_urunleri.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebUserControl1.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55607</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

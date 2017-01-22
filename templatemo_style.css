@@ -1,0 +1,350 @@
+/*	Credit: http://www.templatemo.com	*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background:url(images/resim.png) repeat-y;
+
+	
+	
+}
+
+a, a:link, a:visited { color: #c89806; font-weight: bold; text-decoration: none; }
+a:hover { color: #FF6600; text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #000; font-weight: bold; font-style: normal }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: bold; }
+h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 {  font-size: 25px; margin: 0 0 15px 0; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+a.more { display: block; width: 75px; height: 25px; text-align: center; padding: 0px 15px 0 0; color: #fff; font-weight: normal; background: url(images/templatemo_button.png) no-repeat; margin-left:190px; }
+a.more:hover { text-decoration: none; color: #faca39; }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 5px solid #fff; background: none; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+
+.tmo_list { margin: 20px 0 20px 20px; padding: 0; list-style: none }
+.tmo_list li { color:#d7a202; margin: 0; padding: 0 0 0 15px; background: url(images/templatemo_list.png) no-repeat scroll 0 6px  }
+.tmo_list li a { color: #c89806; font-weight: normal }
+.tmo_list li a:hover { color: #d7a202 }
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 30px;
+	margin: 0 auto
+}
+
+#templatemo_header {
+	width: 930px;
+	height: 50px;
+	padding: 15px;
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 270px; height: 70px; color: #F60; text-indent: -10000px; background:url(images/templatemo_logo.png) center no-repeat; z-index:auto; }
+
+#twitter a{ font:"Arno Pro Smbd Caption"; float: right; font-weight: normal; display: block; padding: 13px 50px 13px 0; color: #535294; font-size: 18px; background: url(images/sagyazi.png)  no-repeat left center; width:300px; height:30px; }
+
+/* menu */
+#templatemo_menu {
+	clear: both;
+	width: 930px;
+	height: 45px;
+	padding: 0 15px;
+	background: url(images/menu.png) no-repeat
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 687px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 46px;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	float: left;
+		display: block;
+		padding: 8px 10px;
+		margin: 0 1px 0 0;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		color: #000;
+		outline: none;
+	background: url('images/templatemo_menu_divider.png') no-repeat right 50%;
+	width: 89px;
+	height: 25px;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current { color: #fff; background: #0099CC; }
+
+.search_box { float: right; width: 220px; 
+height: 21px; 
+margin: 10px 15px 10px 0; background: url(images/templatemo_search.jpg) left bottom no-repeat
+}
+.search_box form { clear: both; width: 200px; height: 19px; padding: 0; margin: 0 } 
+#searchfield { height: 18px;  line-height: 18px; width: 190px; padding: 0 5px; font-size: 11px; color: #a09391; background: #605654; border: 1px solid #453c3a; } 
+
+/* end of menu */
+
+/* slider */
+#slider_wrapper {
+	clear: both;
+	width: 960px;
+	height: 300px;
+	margin-bottom: 15px;
+	background: url(images/slider_bottom.png) bottom no-repeat
+}
+
+#slider_wrapper_n { clear: both; width: 900px; padding: 30px; margin-bottom: 15px; background: #000 url(images/slider_bottom.jpg) no-repeat bottom } 
+#slider_wrapper_n h2 {
+	color: #fff;
+}
+#slider_wrapper_n p { font-size: 16px }
+
+#slider { 
+	width: 960px;
+	height: 280px;
+	overflow: hidden;
+}
+
+
+/* end of slider */
+
+#templatemo_main {
+	clear: both;
+	position: relative;
+	width: 960px;
+	
+	padding: 30px 0;
+	background:url(images/resim10.png) no-repeat;
+	top: 0px;
+	left: 0px;
+}
+
+#templatemo_main span.bottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 960px;
+	height: 15px;
+	background: url(images/content_bottom.jpg) no-repeat
+}
+
+.col_w900 { width: 900px; padding: 0 30px 70px 30px; margin-bottom: 0; background: url(images/content_divider.jpg) repeat-x bottom }
+.col_w580 { width: 580px }
+.col_w420 { width: 930px;
+	
+}
+.col_w280 { width: 280px }
+.col_allw280 { float: left; width: 280px; margin-right: 30px }
+.col_w900_last { padding: 0 30px; margin: 0; background: none; }
+.col_last { margin: 0; }
+
+.frontpage_box h2 { padding: 0; margin-bottom: 5px; color: #333 }
+.frontpage_box img { float: left; margin-right: 15px }
+.frontpage_box a.more { margin-top: 15px }
+.tagline { display: block; font-size: 12px; font-weight: bold; font-style: italic; color: #999; margin-bottom: 30px }
+
+.lbe_box { clear: both; margin-bottom: 20px }
+.lbe_box h3 { font-size: 16px; margin-bottom: 0 }
+.lbe_box h3 a { color: #c89806; font-size: 16px; font-weight: normal }
+.lbe_box p { margin-bottom: 0; }
+.lbe_box p.date { font-size: 10px; font-weight: 700; color: #000 }
+
+.lp_box { float: left; width: 280px; margin-right: 30px }
+.lp_box_last { margin: 0 }
+.lp_box img { border: 1px solid #CCC; padding: 4px }
+
+#map img { width: 270px; height: 160px; border: 1px solid #999; padding: 4px }
+
+#cp_contact_form { padding: 0; width: 380px }
+#cp_contact_form form { margin: 0px; padding: 0px; }
+
+#cp_contact_form form .input_field { 
+	width: 380px; font-size: 12px; color: #333; padding: 5px; 
+	height: 20px; border: 1px solid #ccc;  background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+
+#cp_contact_form form label { display: block; width: 220px; margin-bottom: 5px; font-size: 12px; color: #000; }
+
+#cp_contact_form form textarea { 
+	width: 380px; height: 160px; padding: 5px; color: #333; 
+	border: 1px solid #ccc;  background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+	
+#cp_contact_form form .submit_btn { margin: 10px 0px; padding: 5px 14px; border: 1px solid #ccc; background: #fff; }
+
+.news_box { clear: both; margin-bottom: 30px }
+.news_box h2 { font-size: 20px; margin-bottom: 0 }
+.news_box p.date { color: #000 }
+.news_box img { float: left; width: 100px; height: 100px; padding: 4px; border: 1px solid #000; margin-right: 30px }
+.news_box a.more { float: right; }
+
+.sb_lp_box { clear: both; margin-bottom: 20px }
+.sb_lp_box img { padding: 9px; border: 1px solid #ccc }
+
+.post_box { clear: both; margin-bottom: 30px }
+.post_box h2 { font-size: 20px; margin-bottom: 10px }
+.post_box p.post_meta { margin-bottom: 0 }
+.post_box p span.cat a { color: #cb5c02; font-weight: 400 }
+.post_box img { width: 550px; height: 160px; border: 10px solid #eee; margin-bottom: 10px }
+.post_box a.more { float: right; }
+
+#gallery { margin: 0; padding: 0 }
+#gallery .gallery_box { display: block; float: left; width: 130px; margin: 0 10px 10px 0; }
+#gallery .lmb { margin: 0 0 20px 0; }
+
+.gallery_box h3 { margin-bottom: 10px }
+.gallery_box h3 a { font-size: 18px; font-weight: normal; color: #1184df }
+.gallery_box p { font-style: italic; font-size: 11px; font-weight: bold }
+.gallery_box a img { border: 3px solid #babad5; width: 100px; height: 75px;  padding: 8px }
+.gallery_box a img:hover { background: #babad5 }
+
+#gallery a.more { float: left; margin-right: 10px }
+
+
+#templatemo_footer {
+	clear: both;
+	width: 960px;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+	font-size: 11px;
+}
+
+#templatemo_footer a {
+	font-weight: normal;
+	color: #000;
+}
+/* ÝÇERÝK ÝLE ÝLGÝLÝ HERÞEY */
+.h3
+{
+	color:White;
+	font-size:16px;
+	}
+	a.icerik_more { display: block; width: 75px; height: 25px; text-align: center; padding: 0px 50px 0 0; color: #fff; font-weight: normal; background: url(images/templatemo_button.png) no-repeat; margin-left:800px; }
+	.icerik_p
+	{
+		color:White;
+		text-transform:capitalize;
+		}
+		.ul
+		{
+			list-style:none;
+			
+		}
+		.ul li
+		{
+		color:Black;	}
+		.p_renk
+		{
+			color:Black;}
+			
+			
+			/* BÝZE ULAÞIN KISMI */
+			
+			.bize_ulasin
+			{
+				 width:350px;
+				 margin-left:550px;
+				 color:White;
+				 font-size:14px;
+				 margin-top:-180px;
+				 border:3px solid #fff;
+				 padding-left:10px;}
+				 /* REKLAMLAR KISMI */
+				 .reklam
+				 {
+				 	width:200px;
+				 	height:125px;
+				 	 float:left;
+				 	 margin-right:15px;
+				 	 border:3px solid #babad5;
+				 	 margin-top:5px;
+				 	 }
+				 	 .satis_urunleri
+				 	 {
+				 	 	margin-top:15px;
+				 	 	width:150px;
+				 	 	height:150px;
+				 	 	float:left;
+				 	 	margin-right:10px;
+				 	 	border:3px solid #babad5;}
+				 	 	.satis_urunleri_icerik
+				 	 	{
+				 	 		padding-top:4px;
+				 	 		color:#FFFFFF;
+				 	 		width:150px;
+				 	 		height:50px;
+				 	 		
+				 	 	
+				 	 		}
+				 	 		.satis_urunleri img
+				 	 		{
+				 	 			width:150px;
+				 	 			height:100px;
+				 	 			border-bottom:3px solid #babad5;
+				 	 			 
+				 	 			}
+				 	 			.sira
+				 	 			{
+				 	 				margin-top:20px;
+				 	 				padding-top:-40px;
+				 	 				width:200px;
+				 	 				height:54px;
+				 	 				margin-left:300px;
+				 	 				}
+				 	 				satis_urunleri text
+				 	 				{
+				 	 					line-height:6px;}
+				 	 					.ileri
+				 	 					{
+				 	 						}
+				 	 						.geri
+				 	 						{
+				 	 							
+				 	 							}
+				 	 							.ileri a:hover
+				 	 							{
+				 	 								background-image:images/ileri_hover.png}
+				 	 								.geri a:hover
+				 	 								{
+				 	 									background-image:images/geri_hover.png}
+				 	 	

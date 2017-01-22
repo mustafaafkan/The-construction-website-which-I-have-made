@@ -1,0 +1,307 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99009088-DE7B-49C0-8E3D-EA890090CFD4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gunaydininsaattahahut</RootNamespace>
+    <AssemblyName>gunaydininsaattahahut</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="images\2.jpeg" />
+    <Content Include="images\2.png" />
+    <Content Include="images\5.png" />
+    <Content Include="images\anlasmak.png" />
+    <Content Include="images\blog_image_01.jpg" />
+    <Content Include="images\blog_image_02.jpg" />
+    <Content Include="images\blog_image_03.jpg" />
+    <Content Include="images\blog_image_04.jpg" />
+    <Content Include="images\buyutec.png" />
+    <Content Include="images\closelabel.gif" />
+    <Content Include="images\content_bottom.jpg" />
+    <Content Include="images\content_divider.jpg" />
+    <Content Include="images\content_top.jpg" />
+    <Content Include="images\default.jpeg" />
+    <Content Include="images\default.png" />
+    <Content Include="images\gallery\image_01_l.jpg" />
+    <Content Include="images\gallery\image_01_s.jpg" />
+    <Content Include="images\gallery\image_02_l.jpg" />
+    <Content Include="images\gallery\image_02_s.jpg" />
+    <Content Include="images\gallery\image_03_l.jpg" />
+    <Content Include="images\gallery\image_03_s.jpg" />
+    <Content Include="images\gallery\image_04_l.jpg" />
+    <Content Include="images\gallery\image_04_s.jpg" />
+    <Content Include="images\gallery\image_05_l.jpg" />
+    <Content Include="images\gallery\image_05_s.jpg" />
+    <Content Include="images\gallery\image_06_l.jpg" />
+    <Content Include="images\gallery\image_06_s.jpg" />
+    <Content Include="images\icon1.jpg" />
+    <Content Include="images\icon2.jpg" />
+    <Content Include="images\icon3.jpg" />
+    <Content Include="images\icon3.png" />
+    <Content Include="images\lightbox-blank.gif" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\map_big.jpg" />
+    <Content Include="images\map_thumb.jpg" />
+    <Content Include="images\menu.jpg" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\nav_control.jpg" />
+    <Content Include="images\nav_control.png" />
+    <Content Include="images\nav_control_hover.jpg" />
+    <Content Include="images\nav_control_hover.png" />
+    <Content Include="images\news_image_01.jpg" />
+    <Content Include="images\news_image_02.jpg" />
+    <Content Include="images\news_image_03.jpg" />
+    <Content Include="images\news_image_04.jpg" />
+    <Content Include="images\nextlabel.gif" />
+    <Content Include="images\prevlabel.gif" />
+    <Content Include="images\resim.png" />
+    <Content Include="images\resim1.png" />
+    <Content Include="images\resim2.png" />
+    <Content Include="images\resim3.png" />
+    <Content Include="images\sagyazi.png" />
+    <Content Include="images\slider.jpg" />
+    <Content Include="images\slider_bottom.jpg" />
+    <Content Include="images\slider_bottom.png" />
+    <Content Include="images\slideshow\01.jpg" />
+    <Content Include="images\slideshow\02.jpg" />
+    <Content Include="images\slideshow\03.jpg" />
+    <Content Include="images\slideshow\04.jpg" />
+    <Content Include="images\slideshow\05.jpg" />
+    <Content Include="images\templatemo_body.jpg" />
+    <Content Include="images\templatemo_button.png" />
+    <Content Include="images\templatemo_list.png" />
+    <Content Include="images\templatemo_logo.png" />
+    <Content Include="images\twitter.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="js\slimbox2.js" />
+    <Content Include="templatemo_style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aslt_kisim.ascx.cs">
+      <DependentUpon>aslt_kisim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aslt_kisim.ascx.designer.cs">
+      <DependentUpon>aslt_kisim.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bizeulasin.ascx.cs">
+      <DependentUpon>bizeulasin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bizeulasin.ascx.designer.cs">
+      <DependentUpon>bizeulasin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bize_ulasin.aspx.cs">
+      <DependentUpon>bize_ulasin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bize_ulasin.aspx.designer.cs">
+      <DependentUpon>bize_ulasin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form.ascx.cs">
+      <DependentUpon>form.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.ascx.designer.cs">
+      <DependentUpon>form.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="form.aspx.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.aspx.designer.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetler.aspx.cs">
+      <DependentUpon>hizmetler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetler.aspx.designer.cs">
+      <DependentUpon>hizmetler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hizmetlerimiz_alt_kisim.ascx.cs">
+      <DependentUpon>hizmetlerimiz_alt_kisim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hizmetlerimiz_alt_kisim.ascx.designer.cs">
+      <DependentUpon>hizmetlerimiz_alt_kisim.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="malzeme.ascx.cs">
+      <DependentUpon>malzeme.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="malzeme.ascx.designer.cs">
+      <DependentUpon>malzeme.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="malzemeler.aspx.cs">
+      <DependentUpon>malzemeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="malzemeler.aspx.designer.cs">
+      <DependentUpon>malzemeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page-1.aspx.cs">
+      <DependentUpon>page-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page-1.aspx.designer.cs">
+      <DependentUpon>page-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page1.ascx.cs">
+      <DependentUpon>page1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page1.ascx.designer.cs">
+      <DependentUpon>page1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="referans.ascx.cs">
+      <DependentUpon>referans.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="referans.ascx.designer.cs">
+      <DependentUpon>referans.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="referanslarımız.aspx.cs">
+      <DependentUpon>referanslarımız.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="referanslarımız.aspx.designer.cs">
+      <DependentUpon>referanslarımız.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="satis-urunleri.ascx.cs">
+      <DependentUpon>satis-urunleri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="satis-urunleri.ascx.designer.cs">
+      <DependentUpon>satis-urunleri.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="satis_urunleri.aspx.cs">
+      <DependentUpon>satis_urunleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="satis_urunleri.aspx.designer.cs">
+      <DependentUpon>satis_urunleri.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gallery\Thumbs.db" />
+    <None Include="images\slideshow\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="AC_RunActiveContent.js" />
+    <Content Include="aslt_kisim.ascx" />
+    <Content Include="bizeulasin.ascx" />
+    <Content Include="bize_ulasin.aspx" />
+    <Content Include="css\ie6.css" />
+    <Content Include="css\ie7.css" />
+    <Content Include="css\jquery.lightbox-0.5.css" />
+    <Content Include="css\nivo-slider.css" />
+    <Content Include="css\slimbox2.css" />
+    <Content Include="form.ascx" />
+    <Content Include="form.aspx" />
+    <Content Include="hizmetler.aspx" />
+    <Content Include="hizmetlerimiz_alt_kisim.ascx" />
+    <Content Include="images\ie6.png" />
+    <Content Include="images\resim10.png" />
+    <Content Include="malzeme.ascx" />
+    <Content Include="malzemeler.aspx" />
+    <Content Include="MasterPage.master" />
+    <Content Include="page-1.aspx" />
+    <Content Include="page1.ascx" />
+    <Content Include="referans.ascx" />
+    <Content Include="referanslarımız.aspx" />
+    <Content Include="reklam.swf" />
+    <Content Include="satis-urunleri.ascx" />
+    <Content Include="satis_urunleri.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55600</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
